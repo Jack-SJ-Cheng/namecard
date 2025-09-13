@@ -147,7 +147,7 @@
     position: absolute;
     width: 120px;
     height: 120px;
-    background: url("/img/macaron.png") no-repeat;
+    background: url("../img/macaron.png") no-repeat;
     background-size: contain;
     z-index: 100;
     right: 215px;
@@ -158,7 +158,7 @@
     position: absolute;
     width: 120px;
     height: 120px;
-    background: url("/img/icecream.png") no-repeat;
+    background: url("../img/icecream.png") no-repeat;
     background-size: contain;
     z-index: 100;
     right: 60px;
@@ -169,7 +169,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    background: url("/img/coffee.png") no-repeat;
+    background: url("../img/coffee.png") no-repeat;
     background-size: contain;
     z-index: 100;
     right: 43px;
