@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'zuin';
+    src: url(../fonts/Mengshen-Handwritten-2.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'xinshu';
+    src: url(../fonts/DunHuangFeiTian-XingKaiTi-2.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'chenyuluoyen';
+    src: url(../fonts/ChenYuluoyan-2.0-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,177 @@
+.container{
+    background-color: rgb(185, 133, 64);
+    padding: 100px 0;
+}
+.nameCard{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #E2DCD1;
+    padding: 50px;
+    box-shadow: 5px 5px 5px rgb(54, 46, 46, 0.5);
+}
+.nameCard h1{
+    height: 80px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-image: url(/img/logo.png);
+    background-size: contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nameCard .title{
+    color: rgb(185, 133, 64);
+    font-family: 'chenyuluoyen';
+    font-size: 36px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nameCard h3{
+    font-family: 'chenyuluoyen';
+    margin: 20px 60px;
+    font-size: 48px;
+    color: #3F3230;
+}
+
+.nameCard .footer{
+    color: rgb(185, 133, 64);
+}
+
+.nameCard .footer p{
+    margin-bottom: 5px;
+    font-family: 'chenyuluoyen';
+    font-size: 20px;
+}
+.deco{
+    position: absolute;
+    right: 20px;
+    top: 200px;
+    z-index: 1;
+}
+.hexbox{
+    position: relative;
+    width: 100px;
+    height: 0px;
+    /* background-color: aqua; */
+    border-bottom-width: 87px;
+    border-right-width: 50px;
+    border-left-width: 50px;
+    border-top-width: 0;
+    border-color: transparent transparent #c59b64;
+    border-style: solid;
+}
+.hexbox::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 50px;
+    border-left-width: 50px;
+    border-top-width: 87px;
+    border-color: #c59b64 transparent transparent;
+    border-style: solid;
+    top: 87px;
+    left: -50px;
+}
+
+.deco2{
+    position: absolute;
+    right: 176px;
+    top: 110px;
+}
+.hexbox2{
+    position: relative;
+    width: 100px;
+    height: 0px;
+    /* background-color: aqua; */
+    border-bottom-width: 87px;
+    border-right-width: 50px;
+    border-left-width: 50px;
+    border-top-width: 0;
+    border-color: transparent transparent #ebc89b;
+    border-style: solid;
+}
+.hexbox2::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 50px;
+    border-left-width: 50px;
+    border-top-width: 87px;
+    border-color: #ebc89b transparent transparent;
+    border-style: solid;
+    top: 87px;
+    left: -50px;
+}
+
+.deco3{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.hexbox3{
+    position: relative;
+    width: 100px;
+    height: 0px;
+    /* background-color: aqua; */
+    border-bottom-width: 87px;
+    border-right-width: 50px;
+    border-left-width: 50px;
+    border-top-width: 0;
+    border-color: transparent transparent #d0c285;
+    border-style: solid;
+}
+.hexbox3::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 50px;
+    border-left-width: 50px;
+    border-top-width: 87px;
+    border-color: #d0c285 transparent transparent;
+    border-style: solid;
+    top: 87px;
+    left: -50px;
+}
+.deco4{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: url("/img/macaron.png") no-repeat;
+    background-size: contain;
+    z-index: 100;
+    right: 215px;
+    top: 135px;
+    transform: rotate(5deg);
+}
+.deco5{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: url("/img/icecream.png") no-repeat;
+    background-size: contain;
+    z-index: 100;
+    right: 60px;
+    top: 50px;
+    transform: rotate(-10deg);
+}
+.deco6{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url("/img/coffee.png") no-repeat;
+    background-size: contain;
+    z-index: 100;
+    right: 43px;
+    top: 210px;
+}
