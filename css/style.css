@@ -16,7 +16,7 @@
     height: 80px;
     width: 300px;
     background-repeat: no-repeat;
-    background-image: url(/img/logo.png);
+    background-image: url(../img/logo.png);
     background-size: contain;
     text-indent: 100%;
     white-space: nowrap;
